@@ -1,16 +1,11 @@
-t1 = [1, 2, 3, 4, 5]
+input_id = input('id : ')
+id = 'sangwoo'
+id2 = 'ahyoung'
+if input_id == id:
+    print('hello')
 
-print(t1)
+elif input_id == id2:
+    print('hello #2')
 
-
-t1 = [1, 2, 3]
-print(t1)
-
-
-if True:
-    print(1)
-print(2)
-
-if False:
-    print(1)
-print(2)
+else:
+    print('sorry')
